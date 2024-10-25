@@ -5,16 +5,15 @@ header {
     justify-content: space-between;
     height: 79px;
     margin-bottom: 26px;
-    background-color: aqua;
 }
 
 .hebergements-and-activities {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     width: 23.8%;
     height: 44.3%;
-    background-color: aquamarine;
 }
 
 .logo {
@@ -31,13 +30,14 @@ header img {
 }
 
 .hebergements-and-activities h3 {
-    font-size: small;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
     font-weight: 100;
     height: 100%;
-    background-color:blueviolet;
 }
 
 .hebergements-and-activities h3:hover {
     color: var(--main-color);
-    border-top: 2px solid var(--main-color);
+    border-top: 3px solid var(--main-color);
 }
