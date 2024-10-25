@@ -21,11 +21,33 @@
             <div class="logo">
                 <img src="images/logo/Booki.png" alt="Logo du site Booki">
             </div>
-            <div class="hebergements-and-activities">
+            <nav class="hebergements-and-activities">
                 <h3>Hébergements</h3>
                 <h3>Activités</h3>
-            </div>
+            </nav>
         </header>
+        <nav>
+            <div>
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                <h3>En plein centre-ville ou en pleine nature</h3>
+            </div>
+            <form action="/search" method="GET">
+                <label for="search-input">Recherche :</label>
+                <input type="search" id="search-input" name="q" placeholder="Rechercher..." required>
+                <button type="submit">Rechercher</button>
+            </form>
+            <div>
+                <h2>Filtres</h2>
+                <button><i class="fa-solid price" aria-hidden="true"></i><p>Économique</p></button>
+                <button><p>Familial</p></button>
+                <button><p>Romantique</p></button>
+                <button><p>Nos pépites</p></button>
+            </div>
+            <div>
+                <i class="fa-solid fa-info" aria-hidden="true"></i>
+                <p>Plus de 500 logements sont disponibles dans cette ville</p>
+            </div>         
+        </nav>
         <main>
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
