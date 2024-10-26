@@ -7,6 +7,9 @@
     background-color: aliceblue;
 }
 
+
+/***** Titles *****/
+
 .research-and-filters-titles {
     display: flex;
     flex-direction: column;
@@ -27,11 +30,65 @@
     font-weight: normal;
 }
 
-.research-and-filters form {
+/***** Research *****/
+
+.research {
     width: 377px;
-    height: 49px;
+    height: 17.4%;
+    border: 1px solid var(--filter-bg-color);
     border-radius: 15px;
-    border: 1px;
     gap: 24px;
-    background-color: aquamarine;
 }
+
+.research-and-filters form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.research-logo {
+    background-color: var(--filter-bg-color);
+    width: 13%;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.research-input {
+    width: 52%;
+    height: 100%;
+    
+}
+
+.research-button {
+    background-color: var(--main-color);
+    width: 35%;
+    height: 100%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 15px 16px 15px 16px;
+}
+
+/* Search-bar */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 377px;
+height: 49px;
+
+/* White */
+background: #FFFFFF;
+/* Grey */
+border: 1px solid #F2F2F2;
+border-radius: 15px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
