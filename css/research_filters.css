@@ -1,0 +1,37 @@
+
+.research-and-filters {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 281px;
+    background-color: aliceblue;
+}
+
+.research-and-filters-titles {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 18.8%;
+    gap: 8px;
+    background-color: aqua;
+}
+
+.research-and-filters-titles h1{
+    margin: 0;
+    font-size: 22px;
+}
+
+.research-and-filters-titles h3{
+    margin: 0;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.research-and-filters form {
+    width: 377px;
+    height: 49px;
+    border-radius: 15px;
+    border: 1px;
+    gap: 24px;
+    background-color: aquamarine;
+}
