@@ -21,7 +21,6 @@
 }
 
 .hebergements-title {
-    background-color: aqua;
     display: flex;
     justify-content: flex-start;
     height: 4.2%;
@@ -35,12 +34,11 @@
 }
 
 .hebergements-cards {
-    background-color: aliceblue;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
-    height: 72.3%;
+    height: 80%;
 }
 
 .hebergements-cards a {
@@ -72,13 +70,21 @@
     box-sizing: border-box;
 }
 
+.hebergements-cards .card-title {
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.hebergements-cards .card-subtitle {
+    margin: 0;
+}
+
 .hebergements-cards .card-rating {
     margin-bottom: 5px;
 }
 
 .show-more {
     height: 3.4%;
-    background-color: bisque;
 }
 
 .show-more a {
@@ -129,6 +135,18 @@
 
 .populaires-cards .card-rating {
     margin-bottom: 5px;
+}
+
+/***** Others *****/
+
+.card-subtitle {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 16px;
 }
 
 
