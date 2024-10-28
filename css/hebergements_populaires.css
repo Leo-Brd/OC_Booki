@@ -68,6 +68,7 @@
     flex-direction: column;
     justify-content: flex-start;
     box-sizing: border-box;
+    padding-left: 15px;
 }
 
 .hebergements-cards .card-title {
@@ -76,11 +77,7 @@
 }
 
 .hebergements-cards .card-subtitle {
-    margin: 0;
-}
-
-.hebergements-cards .card-rating {
-    margin-bottom: 5px;
+    margin: 0 0 5px 0;
 }
 
 .show-more {
