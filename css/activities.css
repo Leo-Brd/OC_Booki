@@ -1,0 +1,16 @@
+
+.activities {
+    padding: 30px;
+    height: 559px;
+    background-color: aliceblue;
+}
+
+.activities-title {
+    height: 5.3%;
+    background-color: firebrick;
+}
+
+.activities-title h2 {
+    font-weight: 700;
+    font-size: 22px;
+}
