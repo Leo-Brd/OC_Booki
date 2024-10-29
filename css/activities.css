@@ -7,12 +7,10 @@
     height: 559px;
     margin-top: 35px;
     box-sizing: border-box;
-    background-color: aliceblue;
 }
 
 .activities-title {
     height: 5.4%;
-    background-color: firebrick;
 }
 
 .activities-title h2 {
@@ -24,11 +22,12 @@
 .activities-cards {
     display: flex;
     justify-content: space-between;
-    height: 78.5%;
-    background-color: honeydew;
+    height: 87.1%;
 }
 
 .activities-cards .card {
+    display: flex;
+    flex-direction: column;
     padding: 0;
     width: 100%;
     height: 100%;
@@ -39,6 +38,8 @@
 }
 
 .activities-cards .card-content {
+    display: flex;
+    align-items: center;
     height: 13.4%;
 }
 
