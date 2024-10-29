@@ -1,16 +1,58 @@
 
 .activities {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 30px;
     height: 559px;
+    margin-top: 35px;
+    box-sizing: border-box;
     background-color: aliceblue;
 }
 
 .activities-title {
-    height: 5.3%;
+    height: 5.4%;
     background-color: firebrick;
 }
 
 .activities-title h2 {
+    margin: 0;
     font-weight: 700;
     font-size: 22px;
 }
+
+.activities-cards {
+    display: flex;
+    justify-content: space-between;
+    height: 78.5%;
+    background-color: honeydew;
+}
+
+.activities-cards .card {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.activities-cards a {
+    width: 23.2%;
+}
+
+.activities-cards .card-content {
+    height: 13.4%;
+}
+
+.activities img {
+    object-fit: cover;
+    width: 100%;
+    height: 86.5%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.activities-cards p {
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
