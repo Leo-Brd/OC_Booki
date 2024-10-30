@@ -34,7 +34,6 @@
 
 .research {
     display: flex;
-    flex-direction: row;
     align-items: center;
     width: 377px;
     height: 17.4%;
@@ -121,7 +120,6 @@
 .filters button {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
     flex: 1;
     height: 100%;
@@ -129,7 +127,9 @@
     background-color: white;
     border: 2px solid var(--main-bg-color);
     border-radius: 25px;
-    padding: 4 19 4 19;
+    padding: 4px 19px 4px 19px;
+    gap: 10px;
+    white-space: nowrap;
 }
 
 .filters svg {
