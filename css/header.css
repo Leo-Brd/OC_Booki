@@ -41,12 +41,14 @@ header img {
 .hebergements-and-activities a {
     display: flex;
     align-items: center;
+    border-top: 3px solid transparent;
+    transition: border-color 0.2s ease;
     height: 100%;
 }
 
 .hebergements-and-activities a:hover {
     color: var(--main-color);
-    border-top: 3px solid var(--main-color);
+    border-top-color: var(--main-color);
     cursor: pointer;
 }
 
