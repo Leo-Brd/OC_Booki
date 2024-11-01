@@ -10,12 +10,10 @@ header {
 
 .hebergements-and-activities {
     display: flex;
-    flex-direction: row;
     justify-content: flex-end;
-    align-items: center;
     gap: 68px;
-    width: 23.8%;
-    height: 44.3%;
+    width: 50%;
+    height: 100%;
 }
 
 .logo {
@@ -23,7 +21,7 @@ header {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    width: 11.1%;
+    width: 50%;
 }
 
 header img {
@@ -31,19 +29,12 @@ header img {
     height: 19px;
 }
 
-.hebergements-and-activities h3 {
-    display: flex;
-    align-items: center;
+.hebergements-and-activities a {
+    padding-top: 10px;
     font-size: 16px;
     font-weight: 100;
-}
-
-.hebergements-and-activities a {
-    display: flex;
-    align-items: center;
     border-top: 3px solid transparent;
     transition: border-color 0.2s ease;
-    height: 100%;
 }
 
 .hebergements-and-activities a:hover {
@@ -57,9 +48,7 @@ header img {
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
 
-    .hebergements-and-activities {
-        width: 33.6%;
-    }
+    
 }
 
 /* Small devices (phones, less than 768px) */
