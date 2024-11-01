@@ -136,10 +136,12 @@
     white-space: nowrap;
 }
 
-.filters-buttons svg {
-    height: 22px;
+.filters-buttons i {
     width: 22px;
+    height: 22px;
+    font-size: 20px;
 }
+
 
 .filters p {
     font-weight: 700;
