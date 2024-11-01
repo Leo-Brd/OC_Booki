@@ -3,6 +3,7 @@
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+    gap: 40px;
 }
 
 .hebergements-and-populaires section {
@@ -23,7 +24,6 @@
 .hebergements-title {
     display: flex;
     justify-content: flex-start;
-    height: 4.2%;
 }
 
 .hebergements-title h2{
@@ -38,12 +38,10 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
-    height: 80%;
 }
 
 .hebergements-cards a {
     width: calc(33.33% - 20px);
-    height: 46.6%;
 }
 
 .hebergements-cards .card {
@@ -78,10 +76,6 @@
 
 .hebergements-cards .card-subtitle {
     margin: 0 0 5px 0;
-}
-
-.show-more {
-    height: 3.4%;
 }
 
 .show-more a {
