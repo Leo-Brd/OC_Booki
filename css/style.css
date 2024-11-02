@@ -9,6 +9,10 @@
     --filter-bg-color: #DEEBFF;
 }
 
+p {
+    margin: 0;
+}
+
 .fa-solid {
     color: var(--main-color);
 }

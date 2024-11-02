@@ -39,6 +39,7 @@
 .research form {
     height: 49px;
     display: flex;
+    justify-content: stretch;
     border: 1px solid var(--main-bg-color);
     border-radius: 15px;
 }
@@ -48,10 +49,10 @@
     justify-content: center;
     align-items: center;
     background-color: var(--main-bg-color);
-    width: 13%;
     height: 100%;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
+    padding: 0px 17px 0px 17px;
 }
 
 .research-logo svg {
@@ -60,7 +61,6 @@
 }
 
 .research-input {
-    width: 52%;
     height: 100%;
 }
 
@@ -78,7 +78,6 @@
 }
 
 .research-button{
-    width: 35%;
     height: 100%;
     text-align: center;
 }
@@ -93,6 +92,10 @@
     color: white;
     font-weight: 700;
     font-size: 18px;
+}
+
+.research-button i {
+    display: none;
 }
 
 .research-button button:hover {
@@ -198,4 +201,28 @@
 /* Small devices (phones, less than 768px) */
 @media (max-width: 768px) {
     
+    .research-and-filters {
+        padding: 0px 20px 0px 20px;
+    }
+
+    .research form {
+        width: 100%;
+    }
+
+    .research-button button {
+        border-radius: 15px;
+    }
+
+    .research-button i {
+        display: flex;
+        color: white;
+    }
+
+    .research-button p {
+        display: none;
+    }
+
+    .research-input {
+        width: 100%;
+    }
 }
