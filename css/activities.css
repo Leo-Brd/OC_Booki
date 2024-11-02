@@ -39,7 +39,7 @@
 .activities-cards .card-content {
     display: flex;
     align-items: center;
-    height: 59px;
+    padding: 20px 19px 20px 19px;
 }
 
 .activities img {
@@ -53,6 +53,21 @@
 .activities-cards p {
     font-weight: 700;
     font-size: 16px;
-    margin-left: 20px;
+    margin: 0;
 }
 
+
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+
+    .activities img {
+        height: 200px;
+    }
+    
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 768px) {
+    
+}
