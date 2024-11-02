@@ -107,7 +107,6 @@
     justify-content: flex-start;
     align-items: center;
     gap: 15px;
-    height: 50px;
     width: 100%;
 }
 
@@ -122,12 +121,13 @@
 .filters h2 {
     font-weight: 700;
     font-size: 18px;
+    margin: 0;
 }
 
 .filters-buttons button {
     display: flex;
     align-items: center;
-    height: 100%;
+    height: 50px;
     background-color: white;
     border: 2px solid var(--main-bg-color);
     border-radius: 25px;
@@ -187,24 +187,12 @@
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
 
-    .research-and-filters {
-        height: 322px;
-        gap: 35px;
-    }
-
     .filters {
         flex-direction: column;
         align-items: flex-start;
-        width: 72.3%;
-        height: 91px;
         gap: 20px;
     }
 
-    .filters-buttons {
-        background-color: aqua;
-        height: 55%;
-        width: 100%;
-    }
 }
 
 /* Small devices (phones, less than 768px) */
