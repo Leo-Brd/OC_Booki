@@ -164,10 +164,11 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        gap: 20px;
     }
 
     .populaires-cards a {
-        width: 30%;
+        width: 33.33%;
     }
 
     .populaires-cards .card-title {
