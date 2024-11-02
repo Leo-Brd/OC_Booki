@@ -59,3 +59,13 @@ a {
     color: var(--main-bg-color)
 }
 
+
+/****** Media queries ***********/
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 768px) {
+    
+    .main-container {
+        padding: 0;
+    }
+}
