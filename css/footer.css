@@ -36,3 +36,21 @@ footer {
     font-weight: 400;
     font-size: 16px;
 }
+
+
+/****** Media queries ***********/
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 768px) {
+    
+    footer {
+        flex-direction: column;
+        padding: 30px;
+        gap: 50px;
+    }
+
+    .footer-div {
+        padding: 0;
+        width: 100%;
+    }
+}
