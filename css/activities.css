@@ -70,4 +70,16 @@
 /* Small devices (phones, less than 768px) */
 @media (max-width: 768px) {
     
+    .activities img {
+        height: 141px;
+    }
+
+    .activities-cards {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .activities-cards a {
+        width: 100%;
+    }
 }
