@@ -146,7 +146,7 @@
 }
 
 
-.filters p {
+.filters span {
     font-weight: 700;
     font-size: 17px;
 }
@@ -218,7 +218,7 @@
         color: white;
     }
 
-    .research-button p {
+    .research-button span {
         display: none;
     }
 
