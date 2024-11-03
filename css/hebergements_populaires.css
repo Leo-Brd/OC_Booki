@@ -226,6 +226,17 @@
 
     .hebergements {
         background-color: white !important;
+        padding: 20px !important;
     }
+
+    .hebergements-cards {
+        gap: 15px;
+    }
+
+    .hebergements-cards a {
+        width: 100%;
+    }
+
+
 
 }
