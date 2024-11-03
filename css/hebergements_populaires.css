@@ -182,5 +182,50 @@
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 768px) {
-    /* ... */
+    
+    .hebergements-and-populaires {
+        flex-direction: column-reverse;
+        gap: 0px;
+    }
+
+    .hebergements-and-populaires section {
+        border-radius: 0px;
+        gap: 15px;
+        padding: 0;
+    }
+
+    .populaires {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 0px 0px 30px 0px;
+        padding: 30px 20px 30px 20px !important;
+    }
+
+    .populaires-cards {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .populaires-cards a {
+        width: 100%;
+    }
+
+    .populaires-cards .card {
+        margin: 0;
+        height: 33.33%;
+    }
+
+    .populaires-cards .card-title {
+        font-size: 16px;
+    }
+
+    .populaires-cards .card-subtitle {
+        font-size: 14px;
+    }
+
+    .hebergements {
+        background-color: white !important;
+    }
+
 }
