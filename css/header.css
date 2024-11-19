@@ -1,3 +1,4 @@
+/***** Header *****/
 
 header {
     display: flex;
@@ -44,7 +45,7 @@ header img {
 }
 
 
-/****** Media queries ***********/
+/***** Media queries *****/
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 768px) {

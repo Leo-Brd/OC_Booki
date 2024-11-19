@@ -1,5 +1,5 @@
+/***** Hebergements And Populaires *****/
 
-/****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
@@ -14,7 +14,8 @@
     box-sizing: border-box;
 }
 
-/****** Hebergements ***********/
+/***** Hebergements *****/
+
 .hebergements {
     display: flex;
     flex-direction: column;
@@ -84,7 +85,8 @@
     font-size: 18px;
 }
 
-/****** Populaires ***********/
+/****** Populaires *****/
+
 .populaires {
     width: 32%;
 }
@@ -142,9 +144,7 @@
 }
 
 
-/* Le code ci-dessous correspond à la version responsive uniquement */
-
-/****** Media queries ***********/
+/***** Media queries *****/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
     .hebergements-and-populaires {
@@ -236,7 +236,4 @@
     .hebergements-cards a {
         width: 100%;
     }
-
-
-
 }
