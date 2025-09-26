@@ -3,7 +3,7 @@
 
 
 OpenClassrooms Web developer formation : project 2
-- This is the home page of a travel agency's site in HTML/CSS.
-- The page is entirely responsive and there is a mobile version.
+- This is the home page of a travel agency's website in HTML/CSS.
+- The page has a mobile version, it is entirely responsive.
 
 
