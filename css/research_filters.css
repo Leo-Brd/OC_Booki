@@ -238,3 +238,11 @@
         width: 48%;
     }
 }
+
+/* CORRECTION : the filters buttons should take full width on very small screens */
+@media (max-width: 380px) {
+    .filters-buttons button {
+        width: 100%;
+        justify-content: center;
+    }
+}
